@@ -16,10 +16,9 @@ Prepare the list of targets
 
 (Optional) Prepare the cross- cell type list of genes as `cross_gene_list`.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ststevanovic/ni_victoria/blob/main/notebook.ipynb)
+<!-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ststevanovic/ni_victoria/blob/main/notebook.ipynb) -->
 
-
-[Test link](https://2ly.link/216Cp)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://2ly.link/216Di)
 
 
 # Params
