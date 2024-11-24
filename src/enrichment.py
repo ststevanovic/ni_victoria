@@ -99,14 +99,14 @@ class Enrichment:
         # Setup plot
         fig, ax = plt.subplots(figsize=(20, 16))
         bars = ax.bar(x, y)
-        annot_text = '\n'.join(x_annot[en])
+        annot_text = lambda en: '\n'.join(x_annot[en])
         # Annotating each bar with some target names...
         for en, (bar, _) in enumerate(zip(bars, y)):
             # Adjust the placement of text based on the bar's height
             ax.text(
                 bar.get_x() + bar.get_width() /2,      # X-coordinate: center of the bar
                 bar.get_height() - 5,                  # Y-coordinate
-                f"{annot_text}",                       # Text to display         
+                annot_text(en),                       # Text to display         
                 ha='center',                           # Align horizontally
                 va='bottom',                           # Align vertically
                 color="white",                         # Font color
